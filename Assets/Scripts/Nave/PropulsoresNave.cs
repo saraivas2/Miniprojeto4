@@ -18,8 +18,8 @@ public class PropulsoresNave : MonoBehaviour
 
     void Update()
     {
-        transfy = GetComponentInParent<Script_nave1>().MouseY() * sensibilidade;
-        transfx = GetComponentInParent<Script_nave1>().MouseX() * sensibilidade;
+        transfx = GetComponentInParent<Script_nave1>().mouseX * sensibilidade;
+        transfy = GetComponentInParent<Script_nave1>().mouseY * sensibilidade;
         
         movimentaPropulsores(transfx, transfy);
     }

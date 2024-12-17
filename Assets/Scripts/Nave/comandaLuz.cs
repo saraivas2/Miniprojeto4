@@ -12,7 +12,7 @@ public class comandaLuz : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     light1 = GetComponent<Light>();   
+     light1 = GetComponentInChildren<Light>();   
     }
 
     // Update is called once per frame
@@ -20,11 +20,7 @@ public class comandaLuz : MonoBehaviour
     {
 
         TimerOff();
-        TimerOn();
-
-
-    }
-
+        TimerOn();    }
 
     private void TimerOff()
     {

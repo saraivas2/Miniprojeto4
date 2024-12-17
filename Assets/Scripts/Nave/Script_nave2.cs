@@ -63,7 +63,7 @@ public class Script_nave2 : MonoBehaviour
         
         
        
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.I))
         {
             direcao += Vector3.forward * aceleracao * turbo;
             
@@ -84,8 +84,8 @@ public class Script_nave2 : MonoBehaviour
                 aceleracao -= 0.2f;
             }
         }
-        
-        if (Input.GetKey(KeyCode.LeftArrow))
+
+        if (Input.GetKey(KeyCode.J))
         {
             transform.Rotate(new Vector3(0f,-1f, 0f), (float)(Time.deltaTime * 20));
         }
@@ -96,7 +96,7 @@ public class Script_nave2 : MonoBehaviour
             
         }
        
-        if (Input.GetKey(KeyCode.RightShift))
+        if (Input.GetKey(KeyCode.L))
         {
             direcao += Vector3.down*10;
         }
@@ -107,7 +107,7 @@ public class Script_nave2 : MonoBehaviour
             direcao+=Vector3.up*10;
         }
         
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.K))
         {
             direcao += Vector3.back * aceleracao * turbo;
 

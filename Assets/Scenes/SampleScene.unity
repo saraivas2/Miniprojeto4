@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.04150939, g: 0.040334597, b: 0.040334597, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.0001
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 9756f3a1d1ead2e4984840720f2fd6cd, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 3360150087fc1b64bb93da1bfed60050, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -2468,6 +2468,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516333206}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &536362806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 141033353837153850, guid: fe647fff4838c1a4185c5cc69f736254, type: 3}
+  m_PrefabInstance: {fileID: 1894691601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &537196702
 GameObject:
   m_ObjectHideFlags: 0
@@ -4111,8 +4116,8 @@ MonoBehaviour:
   camera: {fileID: 537196705}
   field: 0
   direcao: {x: 0, y: 0, z: 0}
-  fogueteR: {fileID: 1657157850}
-  fogueteL: {fileID: 721656691}
+  fogueteR: {fileID: 536362806}
+  fogueteL: {fileID: 1556990599}
   valorTeste: 0
   audiofoquetes: {fileID: 1425391084}
   sons: {fileID: 8300000, guid: 3d91d59aefb92f04a87cdb99fd7c35e2, type: 3}
@@ -16408,7 +16413,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.373
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -16504,8 +16509,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.068
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -22028,6 +22033,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 442867708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1556990599 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 141033353837153850, guid: fe647fff4838c1a4185c5cc69f736254, type: 3}
+  m_PrefabInstance: {fileID: 1016206952111971112}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1569875914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29128,7 +29138,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100726989}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 0.0000001
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
