@@ -47,22 +47,6 @@ public class Script_nave2 : MonoBehaviour
         Quaternion rotacao = Quaternion.identity;
     }
 
-    void aproxima()
-    {
-        if (camera.fieldOfView > 35f)
-        {
-            camera.fieldOfView = field - 0.1f;
-        }
-    }
-
-    void afasta()
-    {
-        if (camera.fieldOfView < 50f)
-        {
-            field = camera.fieldOfView;
-            camera.fieldOfView = field + 0.1f;
-        }
-    }
     void InputPersonagem()
     {
 
@@ -82,10 +66,12 @@ public class Script_nave2 : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
             direcao += Vector3.forward * aceleracao * turbo;
+            
             if (field <= 50f)
             {
                 afasta();
             }
+            
             if (aceleracao < 50)
             {
                 aceleracao += 0.5f;
@@ -144,4 +130,22 @@ public class Script_nave2 : MonoBehaviour
         }
 
     }
+
+    void aproxima()
+    {
+        if (camera.fieldOfView > 35f)
+        {
+            camera.fieldOfView = field - 0.1f;
+        }
+    }
+
+    void afasta()
+    {
+        if (camera.fieldOfView < 50f)
+        {
+            field = camera.fieldOfView;
+            camera.fieldOfView = field + 0.1f;
+        }
+    }
+
 }
