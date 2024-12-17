@@ -147,7 +147,7 @@ public class Script_nave1 : MonoBehaviour
         }
 
         if (Input.GetKey(KeyCode.F))
-        {
+        {   
             direcao += Vector3.down * 10;
         }
 
