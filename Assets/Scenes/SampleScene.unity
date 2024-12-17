@@ -377,6 +377,7 @@ GameObject:
   - component: {fileID: 63952720}
   - component: {fileID: 63952719}
   - component: {fileID: 63952723}
+  - component: {fileID: 63952724}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Untagged
@@ -488,6 +489,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b895a1ca3b7529546a51c3f0886dfb58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &63952724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63952718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806781dd86b23304cad9022b7118d979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nave1: {fileID: 2100726989}
+  Nave2: {fileID: 1294540629}
 --- !u!1 &109349191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7437051044876719777, guid: b4b3cc60e62559e4b8e7df264cee0331, type: 3}
@@ -1090,6 +1105,7 @@ GameObject:
   - component: {fileID: 254995714}
   - component: {fileID: 254995713}
   - component: {fileID: 254995717}
+  - component: {fileID: 254995718}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Untagged
@@ -1198,6 +1214,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a89c5f7811070c4dac0b0175bcfd6ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &254995718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254995712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806781dd86b23304cad9022b7118d979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nave1: {fileID: 2100726989}
+  Nave2: {fileID: 1294540629}
 --- !u!1 &262617809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,6 +2003,7 @@ GameObject:
   - component: {fileID: 442867706}
   - component: {fileID: 442867705}
   - component: {fileID: 442867709}
+  - component: {fileID: 442867710}
   m_Layer: 0
   m_Name: Urano
   m_TagString: Untagged
@@ -2084,6 +2115,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b895a1ca3b7529546a51c3f0886dfb58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &442867710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442867704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806781dd86b23304cad9022b7118d979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nave1: {fileID: 2100726989}
+  Nave2: {fileID: 1294540629}
 --- !u!1 &473338440 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7468624869690062938, guid: 9be80ed3029c7e74b91cb7ded598c852, type: 3}
@@ -2696,6 +2741,7 @@ GameObject:
   - component: {fileID: 570274898}
   - component: {fileID: 570274897}
   - component: {fileID: 570274901}
+  - component: {fileID: 570274902}
   m_Layer: 0
   m_Name: Netuno
   m_TagString: Untagged
@@ -2807,6 +2853,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b895a1ca3b7529546a51c3f0886dfb58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &570274902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570274896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806781dd86b23304cad9022b7118d979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nave1: {fileID: 2100726989}
+  Nave2: {fileID: 1294540629}
 --- !u!1 &594132431
 GameObject:
   m_ObjectHideFlags: 0
@@ -9348,6 +9408,7 @@ GameObject:
   - component: {fileID: 1133664522}
   - component: {fileID: 1133664521}
   - component: {fileID: 1133664525}
+  - component: {fileID: 1133664526}
   m_Layer: 0
   m_Name: Plutao
   m_TagString: Untagged
@@ -9456,6 +9517,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b895a1ca3b7529546a51c3f0886dfb58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1133664526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133664520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806781dd86b23304cad9022b7118d979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nave1: {fileID: 2100726989}
+  Nave2: {fileID: 1294540629}
 --- !u!1 &1137022297
 GameObject:
   m_ObjectHideFlags: 0
@@ -15927,6 +16002,7 @@ GameObject:
   - component: {fileID: 1339862101}
   - component: {fileID: 1339862100}
   - component: {fileID: 1339862104}
+  - component: {fileID: 1339862105}
   m_Layer: 0
   m_Name: Marte
   m_TagString: Untagged
@@ -16035,6 +16111,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a89c5f7811070c4dac0b0175bcfd6ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1339862105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339862099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806781dd86b23304cad9022b7118d979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nave1: {fileID: 2100726989}
+  Nave2: {fileID: 1294540629}
 --- !u!1 &1354095792 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3784285853087020554, guid: 9be80ed3029c7e74b91cb7ded598c852, type: 3}
@@ -16160,6 +16250,7 @@ GameObject:
   - component: {fileID: 1380228633}
   - component: {fileID: 1380228632}
   - component: {fileID: 1380228636}
+  - component: {fileID: 1380228637}
   m_Layer: 0
   m_Name: Saturno
   m_TagString: Untagged
@@ -16271,6 +16362,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b895a1ca3b7529546a51c3f0886dfb58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1380228637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380228631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806781dd86b23304cad9022b7118d979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nave1: {fileID: 2100726989}
+  Nave2: {fileID: 1294540629}
 --- !u!1 &1425391081
 GameObject:
   m_ObjectHideFlags: 0
@@ -16721,7 +16826,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806781dd86b23304cad9022b7118d979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Nave: {fileID: 690233696}
+  Nave1: {fileID: 2100726989}
+  Nave2: {fileID: 1294540629}
 --- !u!1 &1500802735
 GameObject:
   m_ObjectHideFlags: 0
@@ -27855,6 +27961,7 @@ GameObject:
   - component: {fileID: 1924808209}
   - component: {fileID: 1924808212}
   - component: {fileID: 1924808213}
+  - component: {fileID: 1924808214}
   m_Layer: 0
   m_Name: Mercurio
   m_TagString: Untagged
@@ -27963,6 +28070,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a89c5f7811070c4dac0b0175bcfd6ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1924808214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924808207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806781dd86b23304cad9022b7118d979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nave1: {fileID: 2100726989}
+  Nave2: {fileID: 1294540629}
 --- !u!1 &1932110160
 GameObject:
   m_ObjectHideFlags: 0
@@ -28764,6 +28885,7 @@ GameObject:
   - component: {fileID: 2045800465}
   - component: {fileID: 2045800464}
   - component: {fileID: 2045800468}
+  - component: {fileID: 2045800469}
   m_Layer: 0
   m_Name: Terra
   m_TagString: Untagged
@@ -28873,6 +28995,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a89c5f7811070c4dac0b0175bcfd6ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2045800469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045800463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806781dd86b23304cad9022b7118d979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nave1: {fileID: 2100726989}
+  Nave2: {fileID: 1294540629}
 --- !u!1 &2060011981
 GameObject:
   m_ObjectHideFlags: 0
